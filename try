@@ -370,7 +370,7 @@
       seed = (seed + prompt.charCodeAt(i)) % 1000000;
     }
 
-    return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=400&height=300&nologo=true&model=flux&seed=${seed}`;
+    return `https://pollinations.ai/p/${encodeURIComponent(prompt)}?width=400&height=300&nologo=true&model=flux&seed=${seed}`;
   }
 
   // Download functionality
